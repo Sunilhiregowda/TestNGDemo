@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"> 
+	<parameter name="browser" value="firefox"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testng.demo.AppTest"/>
+      <class name="com.testng.demo.DemoTest2"/>
+      <class name="com.testng.demo.DemoTest1"/>
+      <class name="com.testng.demo.ParameterizedTest"/>
+      <class name="com.testng.demo.PriorityTestcase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
